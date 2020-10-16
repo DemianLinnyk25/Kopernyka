@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); :root {
-    --main-color: black; --accent-color: white; font-family: 'Concert One', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); 
+
+:root {
+    --main-color: black; 
+    --accent-color: white; 
+    font-family: 'Concert One', cursive;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
 }
 
 .logo-block {
@@ -77,4 +86,10 @@ header .header-banner p {
     font-size: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+.logo-block {
+    display: flex;
+    align-items: left;
+    padding: 5px;
 }
