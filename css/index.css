@@ -62,6 +62,7 @@ header .header-banner {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 header .header-banner h2 {
