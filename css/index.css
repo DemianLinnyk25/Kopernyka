@@ -88,6 +88,30 @@ header .header-banner p {
     justify-content: center;
 }
 
+
+
 a {
     text-decoration: none;
+}
+
+main .aboutus {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 5px;
+}
+
+@media (min-width:500px) {
+    .news {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+
+@media (min-width:660px) {
+    .actors {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
 }
