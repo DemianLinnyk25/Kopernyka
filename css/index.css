@@ -2,7 +2,7 @@
 
 :root {
     --main-color: black; 
-    --accent-color: white; 
+    --accent-color: rgb(131, 131, 131); 
     font-family: 'Concert One', cursive;
 }
 
@@ -66,7 +66,7 @@ header .header-banner {
     background-image: url(../img/zviyani.jpeg);
     background-position: center;
     background-size: cover;
-    min-height: 550px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,8 +88,6 @@ header .header-banner p {
     justify-content: center;
 }
 
-.logo-block {
-    display: flex;
-    align-items: left;
-    padding: 5px;
+a {
+    text-decoration: none;
 }
